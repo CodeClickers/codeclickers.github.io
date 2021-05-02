@@ -68,113 +68,15 @@
         <p>You will receive a notification every 24 hours with new facts to improve your general knowledge in different Categories.</p>
 
         <p style="margin-bottom: 35px;">So that you don't forget this knowledge, you can check the facts in the integrated quiz at any time.</p>
-        <p style="margin-bottom: 35px;">Have fun!</p>
+        <p style="margin-bottom: 50px;">Have fun!</p>
+    <h4 style="color: #7AB162; margin-bottom: 40px;">Introduction Video:</h4>
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rrl3Qo5r8Bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
     </center>
-    <h4 style="color: #7AB162; margin-bottom: 40px;">Functions:</h4>
 
-
-
-    <div class="main">
-
-
-        <!-- Portfolio Gallery Grid -->
-        <div class="row">
-          <div class="column 1">
-            <div class="content">
-                <img src="/w3images/mountains.jpg" alt="Notifications" style="width:100%; margin-bottom: 30px;">
-                <center><h4>Check your notifications!</h4></center>
-                <center><p>You will receive a notification with a fact every 24 hours!</p></center>
-            </div>
-          </div>
-          <div class="column 1">
-            <div class="content">
-              <img src="https://i.ibb.co/GMcfj0z/Press-The-Play-Button.png" alt="PlayButton" style="width:70%; margin-bottom: 30px;">
-              <center><h4 style="width:70%;">Press the play button!</h4></center>
-              <center><p style="width:70%;">The quiz will open and look forward to playing!</p></center>
-            </div>
-          </div>
-          
-          <div class="column 1">
-            <div class="content">
-              <img src="https://i.ibb.co/FmNcBKb/WinCoins.png" alt="WinCoins" style="width:70%; margin-bottom: 30px;">
-              <center><h4 style="width:70%;"> Win coins in the quiz!</h4></center>
-              <center><p style="width:70%;">Coins are won in the quiz by answering questions correctly. Time and number of facts are also taken into account.</p></center>
-            </div>
-          </div>
-          <div class="column 2">
-            <div class="content">
-            <img src="/w3images/cars2.jpg" alt="UseCoins" style="width:70%; margin-bottom: 30px;">
-              <center><h4>Use your coins in the app shop!</h4></center>
-              <center><p>In the shop, you can exchange your hard-earned coins for your favorite songs and fonts.</p></center>
-            </div>
-          </div>
-        
-          <div class="column 2">
-            <div class="content">
-              <img src="https://i.ibb.co/5vqZ61F/Love-Your-Hearts.png" alt="Hearts" style="width:70%; margin-bottom: 30px;">
-              <center><h4 style="width:70%;">Love your hearts!</h4></center>
-              <center><p style="width:70%;">The hearts are an important part of our app. If you get a question wrong in the quiz, you lose a heart. All lost hearts reappear after 30 minutes (one heart every 5 minutes).</p></center>
-            </div>
-          </div>
-          <div class="column 2">
-            <div class="content">
-            <img src="https://i.ibb.co/XkxRS01/Look-Forwards.png" alt="LookForward" style="width:70%; margin-bottom: 30px;">
-              <center><h4 style="width:70%;">Look forward!</h4></center>
-              <center><p style="width:70%;">The upper heart bar shows when the next heart will appear again. You can always buy new hearts in our in-app shop.</p></center>
-          </div>
-        </div>
-        
-      </div>
-        
-    </div>
-        
-        <script>
-        filterSelection("all")
-        function filterSelection(c) {
-          var x, i;
-          x = document.getElementsByClassName("column");
-          if (c == "all") c = "";
-          for (i = 0; i < x.length; i++) {
-            w3RemoveClass(x[i], "show");
-            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-          }
-        }
-        
-        function w3AddClass(element, name) {
-          var i, arr1, arr2;
-          arr1 = element.className.split(" ");
-          arr2 = name.split(" ");
-          for (i = 0; i < arr2.length; i++) {
-            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-          }
-        }
-        
-        function w3RemoveClass(element, name) {
-          var i, arr1, arr2;
-          arr1 = element.className.split(" ");
-          arr2 = name.split(" ");
-          for (i = 0; i < arr2.length; i++) {
-            while (arr1.indexOf(arr2[i]) > -1) {
-              arr1.splice(arr1.indexOf(arr2[i]), 1);     
-            }
-          }
-          element.className = arr1.join(" ");
-        }
-        
-        
-        var btnContainer = document.getElementById("myBtnContainer");
-        var btns = btnContainer.getElementsByClassName("btn");
-        for (var i = 0; i < btns.length; i++) {
-          btns[i].addEventListener("click", function(){
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
-          });
-        }
-        </script>
-
-
-    <h4 style="color: #7AB162; margin-bottom: 40px;">Download:</h4>
+    <h4 style="color: #7AB162; margin-bottom: 40px; margin-top: 50px;">Download:</h4>
     <p>Sadly the app is only available for Android users for now, but we are working on a iOS version!</p>
     <p style="margin-bottom: 10px;">Now available in the Play Store!</p>
     <a href="https://play.google.com" target="_blank"><img style="width: 200px; margin-left: 35px; margin-bottom: 30px;" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"></a>
