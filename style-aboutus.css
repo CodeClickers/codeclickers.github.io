@@ -1,0 +1,50 @@
+p, h1, h2, h3, h4, h5, h6, div, a {
+    font-family: 'Segoe UI';
+    position: relative;
+    animation-name: leftfade;
+    animation-duration: .8s;
+    color: #0000ff
+}
+
+
+.top-header {
+    background: rgb(0,188,212);
+    background: linear-gradient(225deg, rgba(0,80,255,0.33) 10%, rgba(255,255,255,1) 50%, rgba(0,80,255,0.33) 90%);
+    margin-bottom: 35px;
+}
+
+img {
+    animation-name: fadein;
+    animation-duration: 1s;
+}
+
+
+.title {
+    margin: 10px;
+    margin-top: 30px;
+    float: center;
+    position: relative;
+    animation-name: leftfade;
+    animation-duration: 2s;
+}
+  
+
+p, h3, h2, h4 {
+    margin: 20px;
+    font-size: 14pt;
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    animation-name: leftfade;
+    animation-duration: 2s;
+}
+
+@keyframes leftfade {
+    0%   {left:-500px; top:0px; opacity: 0%;}
+    100% {left:0px; top:0px; opacity: 100%;}
+}
+  
+@keyframes fadein {
+    0%   {opacity: 0%;}
+    100% {opacity: 100%;}
+}
