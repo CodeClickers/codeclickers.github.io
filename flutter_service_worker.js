@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "7f75536ae849a506c18c89dc5e0db986",
+  "assets/AssetManifest.json": "4f240802fe878bf0d8f4850e4f8e1716",
 "assets/assets/home_tiles/icons/Angle.png": "aea691b85b2ebfe2a148039bd478ca93",
 "assets/assets/home_tiles/icons/Area.png": "f86277d326c9a0ae572323876a1c8d00",
 "assets/assets/home_tiles/icons/DataTranferRate.png": "8c132c87fa3774576d1f546c3a373cc5",
@@ -20,8 +20,6 @@ const RESOURCES = {
 "assets/assets/home_tiles/icons/Time.png": "b9061e90fbf65400917c02354a9e7352",
 "assets/assets/home_tiles/icons/Volume.png": "88bfa46c3549160fabaeea8e85a9a4a8",
 "assets/assets/logo/Animated-Logo.gif": "519354f9e92aea5306670de63e607017",
-"assets/assets/logo/Icon.ico": "133b4f480cdbf8c20470322e990d87af",
-"assets/assets/logo/Icon.png": "d64bca305e2cc0f2f34bc4f982af9544",
 "assets/FontManifest.json": "1b1e7812d9eb9f666db8444d7dde1b20",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/NOTICES": "fff6c46161dd7f7611c030306c2a622b",
@@ -40,9 +38,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "fbf6c98bf8c6cb124c6eebdeca3dbd09",
-"/": "fbf6c98bf8c6cb124c6eebdeca3dbd09",
-"main.dart.js": "505fcec1e2d341e2a3869218ff653191",
+"index.html": "cbc1d58b9be544bdbec90139cc5e3fef",
+"/": "cbc1d58b9be544bdbec90139cc5e3fef",
+"main.dart.js": "385457ffbf10c1ed78dda6a976915443",
 "manifest.json": "b1cf10c076a2492acbe5a463bf9a8b4f",
 "splash/img/dark-1x.png": "1d119b2f323cff0c20aeddcbd794458e",
 "splash/img/dark-2x.png": "032b3b8b871f5c2e74c1f98fa8606a65",
@@ -52,8 +50,8 @@ const RESOURCES = {
 "splash/img/light-2x.png": "032b3b8b871f5c2e74c1f98fa8606a65",
 "splash/img/light-3x.png": "37ade81f15abe808925fd78632bd5054",
 "splash/img/light-4x.png": "c895ad016820ca19aa015b6554cf57ca",
-"splash/splash.js": "f6ee10f0a11f96089a97623ece9a1367",
-"splash/style.css": "86c7608ad714e32ce1ebfe277ca6ecff",
+"splash/splash.js": "c6a271349a0cd249bdb6d3c4d12f5dcf",
+"splash/style.css": "1454db2b2420805ef7c658e32e6c3bd5",
 "version.json": "136289cb1109634e01f64c63ac83e20c"
 };
 
